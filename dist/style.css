@@ -1,0 +1,152 @@
+.K-Corner-All,
+.K-Corner-Bottom,
+.K-Corner-Left,
+.K-Layout-H > .K-Corner-Leading,
+.K-Layout-V > .K-Corner-Tailing,
+.K-Corner-BL,
+.K-Corner-All,
+.K-Corner-Top,
+.K-Corner-Right,
+.K-Layout-H > .K-Corner-Tailing,
+.K-Layout-V > .K-Corner-Leading,
+.K-Corner-TR {
+  border-radius: 0;
+}
+
+.K-Button,
+.K-Toolbar,
+.K-PageNavigator > .K-PageNavigator-PageIndexer {
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.K-Button.K-State-Focused,
+.K-Button.K-State-Hover {
+  background-color: #eee;
+  border-color: #ccc;
+}
+
+.K-Button.K-State-Active,
+.K-PageNavigator > .K-PageNavigator-PageIndexer.K-State-Hover,
+.K-PageNavigator > .K-PageNavigator-PageIndexer.K-State-Focused,
+.K-PageNavigator > .K-PageNavigator-PageIndexer.K-State-Active {
+  background-color: #ddd;
+}
+
+.K-Glyph-Show > .K-Glyph-Content:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #000;
+  font-size: 1.6em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.K-Chem-BasicMolManipulationIaController > .K-Pri-Glyph-Content,
+.K-Chem-BasicMolEraserIaController > .K-Pri-Glyph-Content,
+.K-Chem-MolBondIaController > .K-Pri-Glyph-Content,
+.K-Chem-MolAtomIaController > .K-Pri-Glyph-Content,
+.K-Chem-MolAtomAndFormulaIaController > .K-Pri-Glyph-Content,
+.K-Chem-MolNodeChargeIaController > .K-Pri-Glyph-Content,
+.K-Chem-ArrowLineIaController > .K-Pri-Glyph-Content,
+.K-Chem-TextImageIaController > .K-Pri-Glyph-Content,
+.K-Chem-NewDoc > .K-Pri-Glyph-Content,
+.K-Chem-SaveFile > .K-Pri-Glyph-Content,
+.K-Chem-LoadFile > .K-Pri-Glyph-Content,
+.K-Chem-LoadData > .K-Pri-Glyph-Content,
+.K-Chem-Undo > .K-Pri-Glyph-Content,
+.K-Chem-Redo > .K-Pri-Glyph-Content,
+.K-Chem-Clone-Selection > .K-Pri-Glyph-Contentl, 
+.K-Chem-Copy > .K-Pri-Glyph-Content,
+.K-Chem-Cut > .K-Pri-Glyph-Content,
+.K-Chem-Paste > .K-Pri-Glyph-Content,
+.K-Action-Open-Configurator > .K-Pri-Glyph-Content,
+.K-Chem-Toggle-Inspector > .K-Pri-Glyph-Content,
+.K-Chem-ZoomIn > .K-Pri-Glyph-Content,
+.K-Chem-ZoomOut > .K-Pri-Glyph-Content
+{
+    background: none;
+}
+
+.K-Chem-BasicMolManipulationIaController > .K-Pri-Glyph-Content:after {
+  content: "\f245";
+}
+
+.K-Chem-BasicMolEraserIaController > .K-Pri-Glyph-Content:after {
+  content: "\f12d";
+}
+
+.K-Chem-MolBondIaController > .K-Pri-Glyph-Content:after {
+  content: "⎼⎼";
+}
+
+.K-Chem-MolAtomIaController > .K-Pri-Glyph-Content:after,
+.K-Chem-MolAtomAndFormulaIaController > .K-Pri-Glyph-Content:after {
+    font-family: sans-serif;
+    content: "C";
+}
+
+.K-Chem-MolNodeChargeIaController > .K-Pri-Glyph-Content:after {
+  content: "\f0e7";
+}
+
+.K-Chem-ArrowLineIaController > .K-Pri-Glyph-Content:after {
+  content: "\f061";
+}
+
+.K-Chem-TextImageIaController > .K-Pri-Glyph-Content:after {
+    font-family: sans-serif;
+    content: 'T'
+}
+
+.K-Chem-NewDoc > .K-Pri-Glyph-Content:after {
+    content: '\f15c'
+}
+
+.K-Chem-SaveFile > .K-Pri-Glyph-Content:after {
+    content: '\f0c7'
+}
+
+.K-Chem-LoadFile > .K-Pri-Glyph-Content:after, .K-Chem-LoadData > .K-Pri-Glyph-Content:after {
+    content: '\f574'
+}
+
+.K-Chem-Undo > .K-Pri-Glyph-Content:after {
+    content: '\f0e2'
+}
+
+.K-Chem-Redo > .K-Pri-Glyph-Content:after {
+    content: '\f01e'
+}
+
+.K-Chem-Clone-Selection > .K-Pri-Glyph-Content:after, .K-Chem-Copy > .K-Pri-Glyph-Content:after {
+    content: '\f0c5'
+}
+
+.K-Chem-Cut > .K-Pri-Glyph-Content:after {
+    content: '\f0c4'
+}
+
+.K-Chem-Paste > .K-Pri-Glyph-Content:after {
+    content: '\f0ea'
+}
+
+.K-Action-Open-Configurator > .K-Pri-Glyph-Content:after {
+    content: '\f013'
+}
+
+.K-Chem-Toggle-Inspector > .K-Pri-Glyph-Content:after {
+    content: '\f002'
+}
+
+.K-Chem-ZoomIn > .K-Pri-Glyph-Content:after {
+    content: '\f00e';
+    font-size: 1.3em;
+}
+
+.K-Chem-ZoomOut > .K-Pri-Glyph-Content:after {
+    content: '\f010';
+    font-size: 1.3em;
+}
